@@ -1,0 +1,84 @@
+/* Header */
+header {
+	background-color: #fff;
+	height: 90px;
+}
+
+header:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+header .wrap {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+header .col-lg-12 {
+	padding: 0;
+	height: 90px;
+}
+header a:nth-child(2) {
+	font-size: 13px;
+	color: #97999b;
+	font-family: 'robotoregular';
+	float: right;
+	margin: 36px auto;
+	text-decoration: none;
+}
+
+header a:hover,
+header a:visited,
+header a:fosuc{
+	text-decoration: none;
+}
+
+/* Logo */
+
+#logo {
+	display: inline-block;
+	height: 90px;
+	width: 147px;
+}
+
+#logo img {
+	height: 40px;
+	width: 147px;
+	display: block;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+   #logo img {
+   	left: 10px;
+   }
+   header a:nth-child(2) {
+   	margin: 36px 10px;
+   }
+}
